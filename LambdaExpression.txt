@@ -11,13 +11,47 @@ What is the benifit of Java Lambda Expression:
 	4. To enable paralle programming is also.
 
 
-----------Anonmynous Inner class and lamda express diff-------------
+--------------Difference Between Anonymous Inner Class and Lambda Expression-------
 
-1. it is a class without name.
-1. it is function withou name
+Anonymous Inner Class is a class without a name. It is used to provide implementation of a class or interface only once.
 
-2. Annomyus can extends abstract class and concerit class.
-2. but lambda express can extends abstract and concerit,
+Example:
 
-3. implements an interface that contains any number of abstract method.
-3. lambda can impelemts interface which contains single abstract methods
+Runnable r = new Runnable() {
+    public void run() {
+        System.out.println("Running");
+    }
+};
+
+
+
+
+
+Lambda Expression :
+
+Short Description:
+Lambda Expression is a feature introduced in Java 8. It is a short way to implement a functional interface (an interface with only one abstract method).
+
+Example:
+
+Runnable r = () -> System.out.println("Running");
+
+
+
+
+--------------------------------------------------
+
+1.Anonymous Inner Class is a class without a name.
+Lambda Expression is a function without a name.
+
+2.Anonymous Inner Class can extend abstract class, concrete class, or implement an interface.
+Lambda Expression can only implement a functional interface.
+
+3.Anonymous Inner Class can implement interface with any number of abstract methods.
+Lambda Expression can implement interface with only one abstract method.
+
+4.Anonymous Inner Class code is longer and less readable.
+Lambda Expression code is shorter and more readable.
+
+5. Anonymous Inner Class was introduced before Java 8.
+Lambda Expression was introduced in Java 8.
