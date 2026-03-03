@@ -8,4 +8,16 @@ What is the benifit of Java Lambda Expression:
 	1. To Enable functional progamming in java.
 	2. to write more redable and maintanable and consis code,
 	3. To use API's very easly and effectively,
-	4. To enable paralle programming is also,
+	4. To enable paralle programming is also.
+
+
+----------Anonmynous Inner class and lamda express diff-------------
+
+1. it is a class without name.
+1. it is function withou name
+
+2. Annomyus can extends abstract class and concerit class.
+2. but lambda express can extends abstract and concerit,
+
+3. implements an interface that contains any number of abstract method.
+3. lambda can impelemts interface which contains single abstract methods
