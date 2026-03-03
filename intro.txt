@@ -1,0 +1,15 @@
+1. Labda Expresstion
+2.Functional Interface
+3. defatult methods
+4 static method
+5. predicate
+6. function
+7. comsumer
+8. method refrace by :: colon
+9. Stream Api
+
+
+1. Why java chnages in 1.8
+to simplify the progaming
+
+to enable functional progaming in java

@@ -1,0 +1,11 @@
+1.in 1930s the first time mathematics come, to easy the life of mathematicans,and it has benifits,
+
+2.LISP is first progamming lang who use lambda expressions,
+	-after that many progamming language start useing lambda expression, like
+			c++, obj c, c#, SCAL RUBY etc...
+
+What is the benifit of Java Lambda Expression:
+	1. To Enable functional progamming in java.
+	2. to write more redable and maintanable and consis code,
+	3. To use API's very easly and effectively,
+	4. To enable paralle programming is also,
